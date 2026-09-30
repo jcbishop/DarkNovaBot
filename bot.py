@@ -106,7 +106,7 @@ def outcome_details(result: ResolutionResult) -> str:
     if result.outcome == Outcome.DRAMATIC_FAILURE:
         return (
             "• The GM introduces a significant complication.\n"
-            "• Gain **1 XP**."
+            "• Gain **2 XP**."
         )
 
     if result.outcome == Outcome.SUCCESS:
