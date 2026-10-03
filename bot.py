@@ -115,7 +115,7 @@ def outcome_details(result: ResolutionResult) -> str:
     return (
         "The action did not meet or exceed the Target Number.\n"
         "Once per session, the player may request a Voluntary "
-        "Dramatic Failure for 3 XP, subject to GM approval."
+        "Dramatic Failure for 4 XP, subject to GM approval."
     )
 
 
